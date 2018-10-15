@@ -113,6 +113,22 @@ Layers within the source KML file with the "Text_" prefix are interpreted as tex
         Washington Monument
         Capitol Hill
  
+ 
+
+## Base Map features:
+    
+### Legend:
+Generates a legend according to included icons
+
+### Compass:
+Generates a fancy looking compass
+
+### Scale:
+Draws a scale (in ft)
+
+### Next region over arrows:
+Draws arrows in the 4 directions indicating whats just over the horizon in each direction
+
 ## Boundaries
 
 Each KML must at minimum contain a layer with the prefix "Meta_" prefix to be interpreted as the boundaries of the map. The meta layer contain a few features:
