@@ -48,10 +48,14 @@ This determines the map data not available in the KML file.  It has the followin
   
   Every feature in the source KML file is referenced to an icon file.  To look best, icons must be somewhat high resolution and must have transparent backgrounds.  Put them all in the "icons" folder, and name them with the same name as the corrosponding feature in the KML file.
   
+![Example icon](/icons/road.png?raw=true "Example icon")
+
 ### Background image:
 
   To create the transparent overlay effect with the papyrus, a background image must be supplied that overlaps with the region to be mapped.  Put it in the "backgrounds" folder with the same name as the KML file.
   
+![Example icon](/backgrounds/smithsonian.PNG?raw=true "Example icon")
+
 ## Features:
 
 ### Individual icon placement
@@ -120,8 +124,12 @@ Layers within the source KML file with the "Text_" prefix are interpreted as tex
 ### Legend:
 Generates a legend according to included icons
 
+![Legend](/icons/legend.PNG?raw=true "Legend")
+
 ### Compass:
 Generates a fancy looking compass
+
+![Compass](/icons/compass.png?raw=true "Compass")
 
 ### Scale:
 Draws a scale (in ft)
