@@ -1,6 +1,8 @@
 # marauderMapper
 Produce olde-style maps from kml files
 
+![Example map](/Resizedoutput.PNG?raw=true "Example map output")
+
 ## Requirements:
 * A KML file with the correct format
 * A metadata dictionary
@@ -54,7 +56,7 @@ This determines the map data not available in the KML file.  It has the followin
 
   To create the transparent overlay effect with the papyrus, a background image must be supplied that overlaps with the region to be mapped.  Put it in the "backgrounds" folder with the same name as the KML file.
   
-![Example icon](/backgrounds/smithsonian.PNG?raw=true "Example icon")
+![Example icon](/backgrounds/smithsonian.PNG?raw=true "Example background")
 
 ## Features:
 
