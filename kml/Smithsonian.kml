@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Smithsonian</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Meta_Map Extent</name>
+      <Placemark>
+        <name>Bounding Box
+</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -77.0360375,38.8920514,0
+                -77.0360052,38.8873499,0
+                -77.0158458,38.8876172,0
+                -77.0158028,38.8921349,0
+                -77.0360375,38.8920514,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Background</name>
+      <Placemark>
+        <name>papyrus.jpg,.4
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0362302,38.8870467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>smithsonian.png,.4
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0365199,38.8870885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Icon_3,1,1</name>
+      <Placemark>
+        <name>Castle
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0260376,38.8888316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Air and Space
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0198793,38.8883723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Natural History
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0260805,38.8912244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0200187,38.8913581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washington Monument
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0352108,38.8896629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American History
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0300615,38.8912414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0243354,38.8907434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sculpture</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0229604,38.8912915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drinks</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0196559,38.8891311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carousel
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.024657,38.8892539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grass</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0169001,38.8898802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Text_40</name>
+      <Placemark>
+        <name>Washington DC
+</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0384406,38.8911746,0
+            -77.0353722,38.8913083,0
+            -77.033763,38.8913584,0
+            -77.0309305,38.8914335,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Jefferson Drive
+</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0317138,38.8888197,0
+            -77.0281517,38.8888364,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Fill_Lakes 1</name>
+      <Placemark>
+        <name>Lake 2,8,1
+</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -77.021575,38.8907237,0
+                -77.0229912,38.8906736,0
+                -77.0235491,38.8902895,0
+                -77.0235705,38.8894711,0
+                -77.022562,38.8888197,0
+                -77.0214033,38.8887028,0
+                -77.020309,38.8891203,0
+                -77.0201588,38.889922,0
+                -77.0206523,38.8906235,0
+                -77.021575,38.8907237,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>IconLine_</name>
+      <Placemark>
+        <name>road .75,.1,1.6,1</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0318962,38.8904566,0
+            -77.0275831,38.8905066,0
+            -77.0270896,38.8904565,0
+            -77.0254159,38.89054,0
+            -77.0238495,38.8905567,0
+            -77.0214677,38.89059,0
+            -77.0200193,38.8906151,0
+            -77.0195257,38.8906235,0
+            -77.0192575,38.8906736,0
+            -77.0181632,38.8906569,0
+            -77.01532,38.8906653,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>footpath 1,.15,2.7,1
+</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0317567,38.8892456,0
+            -77.0280552,38.8893374,0
+            -77.0152878,38.889446,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>road 1,.1,1.6,0
+</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0330977,38.8889617,0
+            -77.032175,38.8886109,0
+            -77.027626,38.8886443,0
+            -77.0262956,38.8890786,0
+            -77.0256305,38.8890786,0
+            -77.024107,38.8886944,0
+            -77.0183778,38.8887947,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>footpath 1,.15,2.7,0
+</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.0317892,38.8898299,0
+            -77.015417,38.8900136,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Line</name>
+      <Placemark>
+        <name>10,10,1</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -77.0299036,38.8898045,0
+                -77.0299036,38.8893013,0
+                -77.028257,38.8893221,0
+                -77.0282731,38.8898106,0
+                -77.0299036,38.8898045,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>picker</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/image-picker.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/image-picker.css">
+  </head>
+  <body>
+    <div class="container" style="width:900px;">
+    <select class="image-picker show-html">
+      <option data-img-src="img/art.png" data-img-class="first" data-img-alt="Page 1" value="1">  Page 1  </option>
+      <option data-img-src="img/drinks.png" data-img-alt="Page 2" value="2">  Page 2  </option>
+      <option data-img-src="img/sculpture.png" data-img-alt="Page 3" value="3">  Page 3  </option>
+      <option data-img-src="img/garden.png" data-img-alt="Page 4" data-img-class="last" value="4"> Page 4 </option>
+    </select>
+  </div>
+    <script>
+       $("select").imagepicker({show_label:true})
+    </script>
+  </body>
+</html>

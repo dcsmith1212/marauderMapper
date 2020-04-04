@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Marauder Mapper</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/ol.css" type="text/css">
+
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+
+		<script src="js/ol.js"></script> 
+
+		<script src="js/scripts.js"></script>
+		<script src="js/variables.js"></script>
+		<script src="js/mapStyles.js"></script>
+		<script src="js/runtimeScripts.js"></script>
+	</head>
+
+	<body onload="load()">
+		<div id="NoJS"> It's been detected you're not using Javascript, please enable it to use this site!</div>
+		<div id="InstructionText" style="display:none"><span style='color:green'>Click on rows to make them <span style='color:red'>Active</span> and then click on them again to <span style='color:black'>de-activate</span> them</span></div>
+
+		<div class="container row" id="mapContainer"></div>
+		<div class="container" id="controlsContainer"></div>
+
+	</body>
+</html>
